@@ -66,7 +66,7 @@ body {
 
 .side-right {
   right: 0;
-  background: linear-gradient(to bottom, #040404, #8b8b8b);
+  background: linear-gradient(to bottom, #000000, #8b8b8b);
 }
 
 .name-vertical {
@@ -96,8 +96,8 @@ body {
 .dots a {
   text-decoration: none;
   padding: 8px 14px;
-  background-color: var(--box-color);
-  color: white;
+  background-color: white;
+  color: rgb(0, 0, 0);
   font-weight: 500;
   font-size: 1rem;
   border-radius: 8px;
@@ -107,7 +107,7 @@ body {
 }
 
 .dots a:hover {
-  background-color: var(--accent-color);
+  background-color: white;
   transform: scale(1.05);
 }
 
@@ -282,12 +282,12 @@ body {
     padding: 5px 5px;
     z-index: 10000;
     background: linear-gradient(to right, #8b8b8b, #000000);
-    gap: 10px;
+    gap: 30px;
   }
 
   .side-left .name-vertical {
     writing-mode: horizontal-tb;
-    font-size: 1.5rem;
+    font-size: 2.1rem;
     color: white;
     
   }
@@ -316,12 +316,12 @@ body {
     padding: 10px 20px;
     background: linear-gradient(to right, #040404, #8b8b8b);
     z-index: 1000;
-    gap: 10px;
+    gap: 30px;
   }
 
   .side-right .name-vertical {
     writing-mode: horizontal-tb;
-    font-size: 1.5rem;
+    font-size: 2.1rem;
     color: white;
   }
 
@@ -347,8 +347,8 @@ body {
   }
 
   .profile-image {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
   }
 
   .content h1 {

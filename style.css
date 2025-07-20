@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #1b0728;
+  --bg-color: #2a0940;
   --text-color: #000000;
   --box-color: #444;
   --accent-color: #007bff;
@@ -10,7 +10,7 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background: var(--bg-color);
   color: var(--text-color);
-  background-color: #1b0728;
+  background-color: #2a0940;
   --text-color: #fff;
 }
 
@@ -384,7 +384,7 @@ body {
 /* About Me Section */
 .about-section {
   padding: 20px 20px;
-  background: #1b0728;
+  background: #2a0940;
   color: var(--text-color);
   text-align: center;
   margin-top: 1px;
@@ -439,7 +439,7 @@ body {
 }
 
 .about-box {
-  background-color: #1f103f;
+  background-color: #1c052b;
   padding: 20px 40px;
   border-radius: 15px;
   box-shadow: 0 0 20px rgba(128, 0, 255, 0.2);
@@ -564,7 +564,7 @@ body {
 
 .experience-box {
   flex: 1 1 45%;
-  background: radial-gradient(circle at center, #2d1442, #1a1a1a);
+  background: #200631;
   border: 1px solid rgba(255, 255, 255, 0.05);
   padding: 20px;
   border-radius: 10px;
@@ -712,7 +712,7 @@ body {
 .projects {
   text-align: center;
   padding: 80px 20px;
-  background: var(--bg-color);
+  background: #2a0940;
   color: var(--text-color);
   margin-top: 0.5px;
   overflow-x: hidden;
@@ -749,7 +749,7 @@ body {
 }
 
 .project-card {
-  background: linear-gradient(135deg, #240046, #3c096c);
+  background: #1a0428;
   border-radius: 20px;
   padding: 25px;
   width: 300px;
@@ -943,7 +943,7 @@ body {
 .contact {
   text-align: center;
   padding: 80px 20px;
-  background: var(--bg-color);
+  background: #2a0940;
   color: var(--text-color);
   overflow: hidden;
 }
